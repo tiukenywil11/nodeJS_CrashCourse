@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/tiukenywil11/nodeJS_CrashCourse/issues"
   },
-  "homepage": "https://github.com/tiukenywil11/nodeJS_CrashCourse#readme"
+  "homepage": "https://github.com/tiukenywil11/nodeJS_CrashCourse#readme",
+  "dependencies": {
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
