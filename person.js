@@ -1,3 +1,11 @@
+// Module wrapper function includes the following
+// (function (exports, require, module, __filename__, __dirname){
+
+// })
+
+console.log('Displays directory, and file names: ')
+console.log(__dirname, __filename);
+
 // Initialize an object
 const person = {
     name: 'John Doe',
