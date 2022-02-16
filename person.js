@@ -27,4 +27,12 @@ class Person {
     }
 }
 // export class 'Person' to be used by other js files
-module.exports = Person;
+// module.exports = Person;
+
+console.log('Showing a newly imported class:')
+console.log(person)
+
+// Create a new instance of 'Person' class
+const person1 = new person('John Doe', 30);
+console.log('Using a function from imported class:')
+person1.greeting();
